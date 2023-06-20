@@ -1,0 +1,101 @@
+.login {
+  background: #a0b4c9;
+
+  .container {
+    margin-top: 120px;
+
+    .regiter {
+      margin-top: 180px;
+      padding: 0 45px;
+      background: #fff;
+      margin: 0 auto;
+      width: 600px;
+      border: 1px solid #000;
+
+      .regiter-header {
+
+        .regiter-text {
+          font-weight: 400;
+        }
+
+        .logo {
+          width: auto;
+          height: 100px;
+          display: flex;
+          flex-direction: row-reverse;
+        }
+      }
+
+      .regiter-main {
+        .content {
+          margin-bottom: 20px;
+
+          label {
+            display: block;
+            margin-bottom: 5px;
+          }
+
+          input {
+            width: 100%;
+            border: 1px solid gray;
+            border-left: 3px solid #44B6AE;
+            height: 40px;
+          }
+
+          .email {
+            position: relative;
+
+            img {
+              position: absolute;
+              top: 25%;
+              left: 10px;
+            }
+
+            input {
+              padding-left: 33px;
+            }
+          }
+
+          .password {
+            position: relative;
+
+            img {
+              position: absolute;
+              top: 25%;
+              left: 10px;
+            }
+
+            input {
+              padding-left: 33px;
+            }
+          }
+
+          &:last-child {
+            margin-bottom: 60px;
+          }
+        }
+      }
+
+      .regiter-footer {
+        padding-bottom: 20px;
+
+        button {
+          width: 100%;
+          background: #5CB85C;
+          color: #fff;
+          border: none;
+          height: 40px;
+          cursor: pointer;
+          margin-bottom: 20px;
+        }
+
+        a {
+          color: #337ab7;
+          margin: 0;
+          display: block;
+        }
+      }
+    }
+  }
+
+}

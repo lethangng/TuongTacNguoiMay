@@ -1,0 +1,78 @@
+.login {
+  background: #a0b4c9;
+}
+.login .container {
+  margin-top: 120px;
+}
+.login .container .regiter {
+  margin-top: 180px;
+  padding: 0 45px;
+  background: #fff;
+  margin: 0 auto;
+  width: 600px;
+  border: 1px solid #000;
+}
+.login .container .regiter .regiter-header .regiter-text {
+  font-weight: 400;
+}
+.login .container .regiter .regiter-header .logo {
+  width: auto;
+  height: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.login .container .regiter .regiter-main .content {
+  margin-bottom: 20px;
+}
+.login .container .regiter .regiter-main .content label {
+  display: block;
+  margin-bottom: 5px;
+}
+.login .container .regiter .regiter-main .content input {
+  width: 100%;
+  border: 1px solid gray;
+  border-left: 3px solid #44B6AE;
+  height: 40px;
+}
+.login .container .regiter .regiter-main .content .email {
+  position: relative;
+}
+.login .container .regiter .regiter-main .content .email img {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+}
+.login .container .regiter .regiter-main .content .email input {
+  padding-left: 33px;
+}
+.login .container .regiter .regiter-main .content .password {
+  position: relative;
+}
+.login .container .regiter .regiter-main .content .password img {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+}
+.login .container .regiter .regiter-main .content .password input {
+  padding-left: 33px;
+}
+.login .container .regiter .regiter-main .content:last-child {
+  margin-bottom: 60px;
+}
+.login .container .regiter .regiter-footer {
+  padding-bottom: 20px;
+}
+.login .container .regiter .regiter-footer button {
+  width: 100%;
+  background: #5CB85C;
+  color: #fff;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.login .container .regiter .regiter-footer a {
+  color: #337ab7;
+  margin: 0;
+  display: block;
+}/*# sourceMappingURL=login.css.map */
