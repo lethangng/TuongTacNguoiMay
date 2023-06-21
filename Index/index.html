@@ -22,8 +22,8 @@
           <a href="#">
             <img src="../Public/edit.png" alt="edit-icon">
           </a>
-          <a href="#">Đăng ký</a>
-          <a href="#">Đăng nhập</a>
+          <a href="../Login/regiter.html">Đăng ký</a>
+          <a href="../Login/login.html">Đăng nhập</a>
           <a href="#">Quên mật khẩu</a>
         </div>
       </div>
@@ -31,7 +31,7 @@
   </div>
   <div class="main-top">
     <div class="container">
-      <div class="row align-items-center main-content">
+      <div class="row align-items-center main-content justify-content-between">
         <div class="logo">
           <img src="../Public/logo.png" alt="logo">
         </div>
@@ -51,14 +51,149 @@
         </div>
       </div>
     </div>
-    <div class="main-center">
-      <div class="container">
-        <div class="row">
-          
+
+  </div>
+  <div class="main-center">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="content">
+          <p class="content-text">Điểm đến</p>
+          <input type="text" placeholder="Thành phố" class="content-input">
+        </div>
+        <div class="content">
+          <p class="content-text">Ngày nhận phòng</p>
+          <div class="input-date row">
+            <input type="text" placeholder="Nhận phòng" class="content-input col align-self-start">
+            <div class="">
+              <img src="../Public/115762_calendar_date_event_month_icon 1.svg" alt="" class="align-self-center">
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <p class="content-text">Ngày trả phòng</p>
+          <div class="input-date row">
+            <input type="text" placeholder="Trả phòng" class="content-input col">
+            <div class="">
+              <img src="../Public/115762_calendar_date_event_month_icon 1.svg" alt="" class="align-self-center">
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <p class="content-text">Số phòng, số khách</p>
+          <input type="text" placeholder="1 phòng, 2 người lớn" class="content-input">
+        </div>
+        <div class="content-btn align-self-end mr-5">
+          <button class="btn-search">Tìm kiếm <img src="../Public/172546_search_icon 1.svg" alt=""></button>
         </div>
       </div>
     </div>
   </div>
+  <div class="main">
+    <div class="container">
+      <h2>Top khuyến mãi <div></div>
+      </h2>
+      <div class="list-content row">
+        <div class="content-item col-4">
+          <div class="item">
+            <img src="../Public/image-khachsan-1.svg" alt="img-1">
+            <div class="">
+              <h3>Phòng có view biển cực chill</h3>
+              <p>Thuộc địa phận biển cát bà, Hải Phòng</p>
+              <p>(Sale 20% cho cặp đôi)</p>
+            </div>
+          </div>
+        </div>
+        <div class="content-item col-4">
+          <div class="item">
+            <img src="../Public/image-khachsan-2.svg" alt="img-1">
+            <div class="">
+              <h3>DORAHOTEL nha trang view biển cực đỉnh </h3>
+              <p>Nghỉ dưỡng chuẩn Nhật, từ 2.178k/đêm</p>
+              <p>(Sale 50% cho gia đình 1 chồng 2 vợ)</p>
+            </div>
+          </div>
+        </div>
+        <div class="content-item col-4">
+          <div class="item">
+            <img src="../Public/image-khachsan-3.svg" alt="img-1">
+            <div class="">
+              <h3>Phòng mang phong cách cổ điển</h3>
+              <p>Miễn phí trẻ em, từ 1.998k/đêm</p>
+              <p>(Sale 20% cho các bạn nữ)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="info" id="info">
+    <div class="header row">
+      <p class="text">Chi tiết phòng</p>
+      <span id="close">&#215;</span>
+    </div>
+    <div class="content">
+      <p>Chi tiết giá phòng "Phòng mang phong cách cổ điển":</p>
+      <hr>
+      <table>
+        <thead>
+          <th>Kiểu phòng</th>
+          <th>Giá phong</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Thường</td>
+            <td>1.000.0000đ/1 đêm</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="dieu-kien">Điều kiện trả phòng:</p>
+      <div class="main-content">
+        <p class="content">Khách lẻ từ 01 đến 09 phòng</p>
+        <p>Hủy trước 10 ngày (không tính thứ 7, Chủ Nhật, Lễ Tết) so với ngày đến, không tính phí.</p>
+        <p>Hủy phòng trong vòng 10 ngày (không tính thứ 7, Chủ Nhật, Lễ Tết) so với ngày đến, phạt 50% tổng booking</p>
+        <p>Hủy trong vòng 06 ngày (không tính thứ 7, Chủ Nhật, Lễ Tết) so với ngày đến hoặc không đến, phạt 100% tổng
+          booking</p>
+        <p class="content">Giai đoạn cao điểm (01/12 - 22/12/2022; 06/01 - 21/01/2023; 29/01 - 31/03/2023; 29/04 -
+          01/05/2023; 25/05 -
+          25/07/2023; 01/11 - 30/11/2023)</p>
+        <p>Hủy trước 24 ngày (không tính thứ 7, Chủ Nhật, Lễ Tết) so với ngày đến, không tính phí.</p>
+        <p>Hủy phòng trong vòng 24 ngày (không tính thứ 7, Chủ Nhật, Lễ Tết) so với ngày đến, phạt 50% tổng booking</p>
+        <p>Hủy trong vòng 10 ngày (không tính thứ 7, Chủ Nhật, Lễ Tết) so với ngày đến hoặc không đến, phạt 100% tổng
+          booking</p>
+        <p>Giai đoạn đỉnh điểm (23/12 - 05/01/2023; 22/01 - 28/01/2023) vui lòng không hoàn, không hủy, không thay đổi
+          booking đã đặt.</p>
+
+        <p class="content">Phí hủy/đổi của một đặt dịch vụ = mức phí hủy/đổi của khách sạn + mức phí xử lý giao dịch của
+          DORAHOTEL.</p>
+        <p class="content">Mức phí hủy/đổi của khách sạn: là mức phí được tính dựa vào điều kiện hủy phòng.</p>
+        <p class="content">Mức phí xử lý giao dịch của DORAHOTEL như sau:</p>
+        <p>Đặt dịch vụ dưới 5 triệu: từ 50,000 vnđ đến 2% tổng giá trị dịch vụ.</p>
+        <p>Đặt dịch vụ trên 5 triệu: 1,5% tổng giá trị dịch vụ.</p>
+        <p>Đặt dịch vụ không được hủy/đổi cần hỗ trợ hủy/đổi: tùy trường hợp, mức phí sẽ được thông báo cho quý khách
+          trước khi tiến hành.</p>
+      </div>
+    </div>
+  </div>
 </body>
+
+<script>
+  let info = document.getElementById("info");
+  let item = document.getElementsByClassName("content-item")[2];
+  let close = document.getElementById("close");
+  // console.log(">>> check:", item);
+  let handleOnClick = (item) => {
+    info.classList.toggle("show");
+  }
+
+  let handleClickSearch = () => {
+    window.location.href = "search.html";
+  }
+
+  document.getElementsByClassName("btn-search")[0].addEventListener("click", handleClickSearch);
+
+  item.addEventListener("click", handleOnClick);
+  close.addEventListener("click", handleOnClick)
+</script>
 
 </html>

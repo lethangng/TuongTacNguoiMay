@@ -1,0 +1,90 @@
+@import '../css/header.scss';
+
+.main {
+  .container {
+    .beadcrumb {
+      list-style: none;
+      margin: 10px 0;
+
+      li {
+        a {
+          text-decoration: none;
+          color: #86B817;
+        }
+      }
+    }
+
+    .search {
+      h3 {
+        font-size: 28px;
+        font-weight: 700px;
+        color: #86B817;
+
+        div {
+          width: 20%;
+          border-bottom: 4px solid #86B817;
+        }
+      }
+    }
+
+    .hotel-list {
+      .item {
+        margin: 25px 0;
+        position: relative;
+        padding-bottom: 10px;
+        border-bottom: 2px solid grey;
+
+        &>img {
+          margin: 0 10px;
+        }
+
+        .content {
+          position: relative;
+
+          h5 {
+            color: #337AB7;
+            font-weight: 700;
+          }
+
+          .start {
+            margin: 0;
+          }
+
+          p {
+            margin: 0;
+            font-weight: 400;
+
+            &>span {
+              font-weight: 600;
+              font-size: 14;
+            }
+          }
+
+          a {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            color: #86B817;
+            text-decoration: none;
+            border-bottom: 1px solid #86B817;
+          }
+        }
+
+        .btn-dat-phong {
+          position: absolute;
+          right: 10%;
+          top: 50%;
+
+          button {
+            background: #337AB7;
+            color: #fff;
+            border: 1px solid #0669bf;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

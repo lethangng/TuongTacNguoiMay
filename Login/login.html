@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="regiter-footer">
-        <button class="regiter-btn">
+        <button class="regiter-btn" type="button">
           Đăng nhập
         </button>
         <a class="forgot-password" href="#">Quên mật khẩu?</a>
@@ -47,5 +47,10 @@
     </div>
   </div>
 </body>
+<script>
+  document.getElementsByClassName("regiter-btn")[0].addEventListener("click", () => {
+    window.location.href = "../Index/index.html";
+  })
+</script>
 
 </html>
