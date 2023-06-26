@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    max-width: 1290px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    background-color: #86B817;
+    color: white;
+}
+
+.bookRoom {
+    padding: 20px 0;
+}
+
+.bookRoom {
+    display: flex;
+    align-items: center;
+}
+
+.bookRoom .bookByGroup {
+    cursor: pointer;
+    padding: 0 15px;
+    margin: 0;
+}
+
+.bookRoom .bookFast {
+    cursor: pointer;
+    padding-right: 15px;
+    margin: 0;
+    border-right: 1px solid white;
+}
+
+.notify {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+
+.notify img {
+    width: 25px;
+}
+
+.icon-notify,
+.icon-edit,
+.header .name {
+    padding: 0 20px;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+
+.header .name {
+    display: flex;
+}
+
+.logout {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.navbar-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 117px;
+    height: 158px;
+}
+
+.navbar .navbar-direct ul li {
+    list-style: none;
+    padding: 50px 25px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.navbar .navbar-direct ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: #86B817;
+}
+
+.navbar-main .contact p {
+    margin: 0;
+}
+
+.navbar-main .contact {
+    padding: 10px;
+    border-left: 1px solid #3d3d3d;
+}
+
+.navbar {
+    border-bottom: 5px solid #86B817;
+}
+
+.datePicker {
+    display: flex;
+    border: 1px solid #a6a6a6;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.datePicker input {
+    outline: none;
+    border: none;
+    width: 200px;
+}
+
+.datePicker input:focus {
+    outline: none;
+}
+
+.icon-date {
+    padding: 5px 10px;
+    background-color: #39C9E9;
+}
+
+.icon-date img {
+    position: relative;
+    top: -1px;
+}
+
+.infoAboutTrip {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination input,
+.quantity input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #a6a6a6;
+    width: 250px;
+}
+
+.info-trip {
+    padding: 45px 10px;
+    border-bottom: 1px solid black;
+}
+
+.info-trip .title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.btn-search {
+    display: flex;
+    color: white;
+    background-color: #86B817;
+    border-radius: 10px;
+    align-items: center;
+    height: 0;
+    padding: 18px;
+    position: relative;
+    bottom: -48px;
+}
+
+.btn-search .search {
+    font-weight: 700;
+    margin: 0;
+    padding-right: 10px;
+}
+.main-content{
+    padding: 10px;
+}
+
+.main-content .title-content{
+    font-weight: 400;
+    font-size: 32px;
+    margin: 0;
+    width: 326px;
+    border-bottom: 1px solid #86B817;
+    color: #86B817;
+    font-weight: 700;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+.nameRoom{
+    font-size: 22px;
+    color: #337AB7;
+    font-weight: 700;
+    margin: 0;
+}
+
+.roomTag{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid #949494;
+}
+
+.infoRoom{
+    padding: 0 20px;
+}
+
+.btnBook{
+    background-color: #337ab7;
+    height: 0;
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 131px;
+}
+li{
+    cursor: pointer;
+}
+li{
+    cursor: pointer;
+}
+.list{
+    position: absolute;
+    top: 46px;
+    right: 0;
+    list-style: none;
+    background-color: #86B817;
+    z-index: 1;
+    display: none;
+}
+.list ul{
+    padding: 0;
+    margin: 0;
+}
+.list li{
+    padding: 15px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+}
+.list li:hover{
+    background-color: white;
+}
+.list li:hover a{
+    color: #86B817;
+}
+.list.active{
+    display: block;
+}
